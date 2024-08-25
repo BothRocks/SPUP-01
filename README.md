@@ -116,7 +116,7 @@ def get_image_files(folder):
 
 ### Paso 4: El bucle principal
 
-Aquí está el meollo del programa. Antes de nada, cargamos el modelo. La primera vez tardará un ratillo, ya que se lo baja, y ocupa un giga y pico. El siguiente paso es sacar la lista de imágenes y finalmente, para cada imagen, pasarla por el modelo. El modelo toma la imagen (convertida en un tensor) y un prompt (convertido en tokens) como entrada. Luego, genera una secuencia de tokens de salida que se convierten en texto, obteniéndose así la descripción (caption) de la imagen.
+Aquí está el meollo del programa. Antes de nada, cargamos el modelo. La primera vez tardará un ratillo, ya que se lo baja, y ocupa un giga y pico. El siguiente paso es sacar la lista de imágenes y finalmente, para cada imagen, pasarla por el modelo. El modelo toma la imagen (convertida en un tensor) y un prompt (convertido en tokens) como entrada y devuelve una secuencia de tokens de salida que se convierten en texto, obteniéndose así la descripción (caption) de la imagen.
 
 Entrando en detalle, estos son los pasos que se dan en el bucle principal:
 
