@@ -1,15 +1,15 @@
 ### Sabiendo Programar un Poco 01
 # Descripción de imágenes con Florence-2
 
-![The image shows a man in a black suit and tie standing on a stage with a large screen in the background. He is holding a microphone and appears to be giving a speech or presentation. The man is in a crouching position with his left leg extended and his right leg bent at the knee. He has a serious expression on his face and his mouth is open as if he is shouting or gesturing with his hands. The stage is lit up with bright lights and there is a logo on the top left corner of the screen.](SPUP%2001%20Descripcio%CC%81n%20de%20ima%CC%81genes%20con%20Florence-2%20c50eaec476d64db29c0fd628bb9d0541/chiquito.png)
-
-The image shows a man in a black suit and tie standing on a stage with a large screen in the background. He is holding a microphone and appears to be giving a speech or presentation. The man is in a crouching position with his left leg extended and his right leg bent at the knee. He has a serious expression on his face and his mouth is open as if he is shouting or gesturing with his hands. The stage is lit up with bright lights and there is a logo on the top left corner of the screen.
+| <img src="https://github.com/user-attachments/assets/9cadc830-9e69-48bb-90a0-a3deef514224" width="50%"/> | 
+|---|
+|*The image shows a man in a black suit and tie standing on a stage with a large screen in the background. He is holding a microphone and appears to be giving a speech or presentation. The man is in a crouching position with his left leg extended and his right leg bent at the knee. He has a serious expression on his face and his mouth is open as if he is shouting or gesturing with his hands. The stage is lit up with bright lights and there is a logo on the top left corner of the screen.*|
 
 Florence-2 es un modelo desarrollado por Microsoft, que analiza imágenes de distintas maneras: puede describirlas, sugerir áreas de interés, detectar objetos, vincular palabras o frases a objetos de la imagen, segmentar a nivel de píxeles o extraer el texto de una imagen. Esto nos puede servir para crear motores de búsqueda de imágenes, software de accesibilidad o analizar datos, por ejemplo.
 
 Es un modelo bastante potente y versátil, y lo mejor es que lo podemos ejecutar en nuestro ordenador, incluso sin GPU. En este tutorial vamos a usar el modelo para obtener las descripciones del contenido (captions) de las imágenes que tenemos en una carpeta.
 
-El código y una carpeta con imágenes de ejemplo están disponible en nuestro Github.
+El código y una carpeta con imágenes de ejemplo están disponible en [nuestro Github](https://github.com/BothRocks/SPUP-01).
 
 ### ¿Qué vamos a aprender?
 
@@ -193,13 +193,12 @@ Tras ejecutar el código con las imágenes de ejemplo, habremos obtenido el sigu
 {"text": "A metal box sitting on the ground in the woods.", "file_name": "754617998299512832_0.jpg"}
 ```
 
-![A computer monitor sitting on the ground next to a trash can.](SPUP%2001%20Descripcio%CC%81n%20de%20ima%CC%81genes%20con%20Florence-2%20c50eaec476d64db29c0fd628bb9d0541/753534820828741632_0.jpg)
 
-A computer monitor sitting on the ground next to a trash can.
+| <img src="https://github.com/user-attachments/assets/8bebdcd7-74c9-48be-b620-3bf21abbf542" alt="A portable air conditioner sitting on the ground next to a wall." width="50%"/>   | <img src="https://github.com/user-attachments/assets/2658b01b-0d47-4cdd-91bc-721ea29dc0d4" alt="A computer monitor sitting on the ground next to a trash can." width="50%"/>   |
+|:---:|:---:|
+| *A portable air conditioner sitting on the ground next to a wall.*  |*A computer monitor sitting on the ground next to a trash can.* |
 
-![A portable air conditioner sitting on the ground next to a wall.](SPUP%2001%20Descripcio%CC%81n%20de%20ima%CC%81genes%20con%20Florence-2%20c50eaec476d64db29c0fd628bb9d0541/756467765369520128_0.jpg)
 
-A portable air conditioner sitting on the ground next to a wall.
 
 ### ¡Bola extra!
 
@@ -252,4 +251,4 @@ Paper: [https://arxiv.org/abs/2311.06242](https://arxiv.org/abs/2311.06242)
 
 Página oficial: [https://huggingface.co/microsoft/Florence-2-large](https://huggingface.co/microsoft/Florence-2-large)
 
-Código del tutorial:
+Código del tutorial: [https://github.com/BothRocks/SPUP-01](https://github.com/BothRocks/SPUP-01)
