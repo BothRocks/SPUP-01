@@ -9,7 +9,7 @@ Florence-2 es un modelo desarrollado por Microsoft, que analiza imágenes de dis
 
 Es un modelo bastante potente y versátil, y lo mejor es que lo podemos ejecutar en nuestro ordenador, incluso sin GPU. En este tutorial vamos a usar el modelo para obtener las descripciones del contenido (captions) de las imágenes que tenemos en una carpeta.
 
-El código y una carpeta con imágenes de ejemplo están disponible en [nuestro Github](https://github.com/BothRocks/SPUP-01).
+El código y una carpeta con imágenes de ejemplo están disponibles en [nuestro Github](https://github.com/BothRocks/SPUP-01).
 
 ### ¿Qué vamos a aprender?
 
